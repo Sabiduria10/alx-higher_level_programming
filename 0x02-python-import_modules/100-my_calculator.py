@@ -1,8 +1,8 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 # 100-my_calculator.py
-# Brennan D Baraban <375@holbertonschool>com>
+# Brennan D Baraban <375@holbertonschool.com>
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     """Handle basic arithmetic operations."""
     from calculator_1 import add, sub, mul, div
     import sys
@@ -11,8 +11,8 @@ if __name__ = "__main__":
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
-    ops = {"+": add, "-": sub, "*": mul, "/": dic}
-    if sys.argv[2] not in list(ops.key()):
+    ops = {"+": add, "-": sub, "*": mul, "/": div}
+    if sys.argv[2] not in list(ops.keys()):
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
