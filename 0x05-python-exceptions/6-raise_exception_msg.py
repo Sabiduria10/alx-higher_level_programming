@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 # 6-raise_exception_msg.py
 # Author: Oyinseye Shola
 
